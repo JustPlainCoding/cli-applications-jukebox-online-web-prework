@@ -45,5 +45,5 @@ def run(songs)
       when "play"
         play(songs)
     end
-exit    
+exit_jukebox    
 end
