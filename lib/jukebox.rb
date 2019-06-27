@@ -17,7 +17,6 @@ def play(songs)
       puts "#{name}"
     else
       puts "Invalid input, please try again."
-      play(songs)
     end
   end
 end
