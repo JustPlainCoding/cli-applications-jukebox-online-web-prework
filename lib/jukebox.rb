@@ -9,7 +9,7 @@ def help
 end
 
 def play(songs)
-  puts "P"
+  puts "Please enter a song name or number:"
   input = gets.chomp
   songs.each_with_index do |name, index|
     if input == "#{index + 1}"
