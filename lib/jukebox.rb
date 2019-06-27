@@ -1,4 +1,6 @@
 def help
+  puts "*help"
+  puts 
 end
 
 def play
