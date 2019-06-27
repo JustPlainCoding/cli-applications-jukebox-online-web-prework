@@ -6,7 +6,7 @@ def help
   puts "- exit : exits this program"
 end
 
-def play
+def play(input)
 end
 
 def list 
