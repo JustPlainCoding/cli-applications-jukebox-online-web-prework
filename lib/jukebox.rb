@@ -16,7 +16,7 @@ def play(songs)
     elsif input == name
       puts "#{name}"
     else
-      return "Invalid input, please try again."
+      puts "Invalid input, please try again."
       play(songs)
     end
   end
