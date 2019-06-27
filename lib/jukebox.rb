@@ -12,9 +12,9 @@ def play(songs)
   input = gets.chomp
   songs.each_with_index do |name, index|
     if input == "#{index + 1}"
-      puts "#{name}"
+      puts "Playing #{name}"
     elsif input == name
-      puts "#{name}"
+      puts "Playing #{name}"
     else
       puts "Invalid input, please try again."
     end
