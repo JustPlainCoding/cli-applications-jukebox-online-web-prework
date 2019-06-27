@@ -28,4 +28,5 @@ def list(songs_array)
 end
 
 def exit_jukebox
+  puts "Goodbye"
 end
