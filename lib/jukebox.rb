@@ -34,9 +34,9 @@ end
 
 def run(songs)
   help
+  binding.pry
   puts "Please enter a command:"
   input = gets.chomp
-  binding.pry
   while input != 'exit' do
     case input
       when "help"
