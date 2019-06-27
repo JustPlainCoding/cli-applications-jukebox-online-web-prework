@@ -36,7 +36,6 @@ def run(songs)
   help
   puts "Please enter a command:"
   input = gets.chomp
-  binding.pry
   case input
     when "help"
       help
