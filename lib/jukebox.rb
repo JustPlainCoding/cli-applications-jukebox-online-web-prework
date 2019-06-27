@@ -9,7 +9,10 @@ end
 def play(input)
 end
 
-def list 
+def list(songs_array)
+  songs_array.each_with_index do |song, index|
+    puts "#{index}. #{song}"
+  end
 end
 
 def exit_jukebox
