@@ -44,6 +44,8 @@ def run(songs)
         list(songs)
       when "play"
         play(songs)
+      else
+        run(songs)
     end
   end
 exit_jukebox    
