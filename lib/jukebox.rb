@@ -12,7 +12,6 @@ def play(songs)
   puts "Please enter song name or number:"
   input = gets.chomp
   songs.each_with_index do |name, index|
-    binding.pry
     if input == "#{index}"
       puts "#{name}"
     elsif input == name
