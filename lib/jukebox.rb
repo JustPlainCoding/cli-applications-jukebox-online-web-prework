@@ -11,7 +11,7 @@ end
 def play(songs)
   input = gets.chomp
   songs.each_with_index do |name, index|
-    if input == "#{index}"
+    if input == "#{index + 1}"
       puts "#{name}"
     elsif input == name
       puts "#{name}"
