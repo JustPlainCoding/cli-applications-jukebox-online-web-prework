@@ -33,15 +33,5 @@ def exit_jukebox
 end
 
 def run(songs)
-  puts "Please enter a command:"
-  input = gets.chomp
-  if input == "exit"
-    exit_jukebox
-  elsif input == "list"
-    list(songs)
-  elsif input == "play"
-    play(songs)
-  elsif input == "help"
-    help
-  end
+  help
 end
