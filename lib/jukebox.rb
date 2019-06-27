@@ -36,11 +36,11 @@ def run(songs)
   input = gets.chomp
   if input == "exit"
     exit_jukebox
-  elsif input = "list"
+  elsif input == "list"
     list(songs)
-  elsif input = "play"
+  elsif input == "play"
     play(songs)
-  elsif input = "help"
+  elsif input == "help"
     help
   else
     "invalid input, please try again."
