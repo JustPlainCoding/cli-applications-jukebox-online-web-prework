@@ -6,7 +6,13 @@ def help
   puts "- exit : exits this program"
 end
 
-def play(input)
+def play(songs)
+  puts "Please enter song name or number:"
+  input = gets.chomp
+  songs.each_with_index do |name, index|
+    if input == index
+    end
+  end
 end
 
 def list(songs_array)
